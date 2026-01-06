@@ -30,7 +30,7 @@ def name_match(user: str, truth: str) -> bool:
 
 
 # --- load data
-df = pd.read_csv("headshot_app/ßtemp_opponent.csv").fillna("")
+df = pd.read_csv("headshot_app/temp_opponent.csv").fillna("")
 
 st.set_page_config(page_title="Opponent Quiz", page_icon="🧠", layout="centered")
 st.title("🧠 Opponent Quiz")
